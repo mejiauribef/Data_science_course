@@ -1,0 +1,204 @@
+Clase 1
+
+Por que debería hacer un análisis exploratorio de datos?
+Organizar y entender las variables: podrás identificar los diferentes tipos de variables, las categorías a la que pertenecen y el tipo de
+análisis que puedes realizar sobre ellas.
+
+Establecer relaciones entre las variables
+Encontrar patrones ocultos en los datos: podrás encontrar información o comportamientos relevantes cuando hagas el EDA.
+
+Ayuda a escoger el modelo correcto para la necesidad correcta: una vez encuentres como están relacionadas las variables podrás 
+descubrir las variables que mas se ajustan a un tipo de modelo y de esta manera eligiras el correcto 
+
+Ayuda a tomar decisiones informadas: decisiones basadas en los datos, en las relaciones que encuentres entre variables, en 
+patrones ocultos y en los modelos que generes a través de la EDA
+
+Pasos de una Análisis Exploratorio de Datos
+
+1. Hacer preguntas sobe los datos. Hazte las siguientes preguntas para guiar el EDA:
+Que te gustaria encontrar?
+Que quisieras saber de los datos?
+Cual es la razon para realizar el analisis?
+
+2. Determinar el tamaño de los datos. Debes responder preguntas como:
+Cuantas observaciones existen?
+Cuantas variables hay?
+Necesito todas las observaciones?
+Necesito todas las variables?
+
+3. Categorizar las variables. Debes preguntarte:
+Cuantas variables categóricas existen?
+Cuantas variables continuas existen?
+Como puedo explorar cada variable dependiendo de su categoría?
+
+4. Limpieza y validación de los datos. En ese paso debes preguntarte:
+Tengo valores faltantes?
+Cual es la proporción de datos faltantes?
+Como puedo tratar a los datos faltantes?
+Cual es la distribución de los datos?
+Tengo valores atipicos?
+
+5. Establecer relaciones entre los datos. Responde preguntas como:
+Existe algun tipo de relacion entre mi variable X y Y?
+Que pasa ahora si considero la variable Z en el analisis?
+Que significa que las observaciones se agrupen?
+Que significa el patron que se observa?
+
+Este proceso es ciclico. A pesar de que pueda parecer infinito, este proceso en algun momento debe salir del ciclo y continuar para 
+obtener algun tipo de valor
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+CLASE 2
+
+tipos de analítica de datos:
+
+DESCRIPTIVA: Es el análisis más básico. Permite dar una vista general de las propiedades, dimensiones y comportamiento de un fenómeno 
+desde la mera descripción de los datos.
+
+DIAGNÓSTICA: Es aplicar unos criterios diferenciales a los datos descriptivos para identificar una situación problemática. Permite 
+establecer relaciones entre variables y crear hipótesis sobre las posibles causas de su comportamiento actual.
+
+PREDICTIVA: Utiliza datos para explicar un posible comportamiento de las variables de interés si se siguen las tendencias actuales o si 
+estas cambian. Permite determinar si la situación problemática identificada puede representar mayor o menor riesgo en el futuro.
+
+PRESCRIPTIVA: Utiliza datos para apoyar la toma de decisiones, con base en eventos del pasado. Propone soluciones basadas en evidencia. 
+Igualmente, la etapa prescriptiva también puede hacer iniciar el ciclo de nuevo, ya que monitorear la solución también da pie a procesos 
+nuevos de descripción y diagnóstico de ese monitoreo, volviendo a iniciar el ciclo una vez más.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+CLASE 3
+
+Tipos de datos
+
+Cualitativos
+
+Categóricos
+Este tipo de datos representa las características de un objeto; por ejemplo, género, estado civil, tipo de dirección o categorías de las 
+películas. Estos datos a menudo se denominan conjuntos de datos cualitativos en estadística.
+Una variable que describe datos categóricos se denomina variable categórica. Estos tipos de variables pueden tener uno de un número 
+limitado de valores. Es más fácil para los estudiantes de informática entender los valores categóricos como tipos enumerados o 
+enumeraciones de variables. Hay diferentes tipos de variables categóricas:
+
+*Ordinal*
+En las escalas ordinales, el orden de los valores es un factor significativo.
+Una encuesta donde se me muestran 5 valores y debo de escoger uno de ellos
+
+*Nominal
+Estos se practican para etiquetar variables sin ningún valor cuantitativo. Las escalas se conocen generalmente como etiquetas. Y estas 
+escalas son mutuamente excluyentes y no tienen ninguna importancia numérica. Veamos algunos ejemplos:
+Genero, los idiomas que se hablan en un país en particular, Especies biológicas, Partes de la oración en gramática, Rangos taxonómicos 
+en biologíaLas escalas nominales se consideran escalas cualitativas y las medidas se toman utilizando las escalas cualitativas.
+Ejemplo, podría ser una escala para evaluar, de cinco valores ordinales diferentes: 
+totalmente de acuerdo / de acuerdo / neutral / en desacuerdo / totalmente en desacuerdo.
+Este tipo de escala son llamadas Likert., para este tipo de datos, se permite aplicar la mediana como medida de tendencia central; sin embargo, el promedio no esta permitido.
+
+*Interval
+En las escalas de intervalo, tanto el orden como las diferencias exactas entre los valores son significativos. Las escalas de intervalo 
+se utilizan ampliamente en estadística, por ejemplo, en la medida de las tendencias centrales: media, mediana, moda y desviaciones 
+estándar. Los ejemplos incluyen la ubicación en coordenadas cartesianas y la dirección medida en grados desde el norte magnético. 
+La media, la mediana y la moda están permitidas en datos de intervalo.
+
+*Ratio
+Contienen orden, valores exactos y cero absoluto, lo que permite su uso en estadísticas descriptivas e inferenciales. Estas escalas 
+ofrecen numerosas posibilidades para el análisis estadístico. Las operaciones matemáticas, la medida de las tendencias centrales y la 
+medida de la dispersión y el coeficiente de variación también se pueden calcular a partir de tales escalas.
+Los ejemplos incluyen una medida de energía, masa, longitud, duración, energía eléctrica, ángulo plano y volumen.
+
+
+
+Cuantitativos
+Numéricos
+Estos datos tienen un sentido de medición involucrado en ellos; por ejemplo, la edad, la altura, el peso, la presión arterial, la frecuencia cardíaca, la temperatura, el número de dientes, el número de huesos y el número de miembros de la familia de una persona. Estos datos a menudo se denominan datos cuantitativos en las estadísticas. El conjunto de datos numérico puede ser de tipo discreto o continuo.
+
+Discreto ⇒ Altura, peso, longitud, volumen, temperatura, humedad, edad.
+
+Estos son datos que son contables y sus valores se pueden enumerar. Por ejemplo, si lanzamos una moneda, el número de caras en 200 lanzamientos de moneda puede tomar valores de 0 a 200 casos (finitos).
+
+Una variable que representa un conjunto de datos discreto se denomina variable discreta. La variable discreta toma un número fijo de valores distintos. Por ejemplo, la variable País puede tener valores como Nepal, India, Noruega y Japón. La variable Rango de un alumno en un aula puede tomar valores de 1, 2, 3, 4, 5, etc.
+
+Continuo ⇒ número de amigos, calificación.
+
+Una variable que puede tener un número infinito de valores numéricos dentro de un rango específico se clasifica como datos continuos. Una variable que describe datos continuos es una variable continua. Por ejemplo, ¿cuál es la temperatura de tu ciudad hoy?
+
+*Tipos de análisis:*
+
+Análisis Univariado: analiza a cada variable por separado, entender sus característica.
+Análisis Bivariado: analiza la relacion de cada par de variables. Permite buscar relaciones intrinsecas entre los datos
+Análisis Multivariado: analiza el efecto simultaneo de multiples variables. Analiza la variables como un conjunto
+En el comienzo de la EDA, el análisis univariado te va a dar informacion mucho mas valiosa que comenzar con todas las variables al mismo 
+tiempo. Te ayuda a analizar la contribución individual de una variable sobre las demas para luego incrementar la cantidad de variables y 
+analizar los efectos en conjunto.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Clase 7
+
+Resumen
+Recolección de Datos, limpieza y validación
+La recolección de datos es la forma de recolectar información que permite obtener conocimiento de primera mano e ideas originales sobre el problema de investigación
+
+Tipos de Recolección de Datos
+
+Primaria: Datos colectados de primera mano a traves de encuestas, entrevistas, experimentos y otros. Puedes decidir que recolectas y que quiere medir. Tienes total control de los datos.
+Secundaria: Datos previamente recolectados por una fuente primaria externa al usuario primario. Son datos abiertos que puedes utilizar. No tienes control sobre lo que se mide o sobre el objetivo del estudio
+Terciaria: Datos que se adquieren de fuentes completamente externas al usuario primario. Son datos accesibles a todo el mundo por lo que pierde su valor y tienden a ser datos genericos
+Validación de los datos
+
+Es el proceso de asegurar la consistencia y precisión dentro de un conjunto de datos. Para asegurar la consistencia de los datos debemos validar:
+
+Modelo de datos: si un tercero recolecto los datos, verifica que preguntas queria responder con los datos. Si eres quien recolecta los datos, hazte muchas preguntas y considera si esos datos son suficientes para responderlas
+Seguimiento de formato estándar de archivos: verifica que la extensión de los archivos que estas manejando correspondan con el formato interno que tienen. Asegurate que los numeros se expresen en el formato que estas trabajando.
+Tipos de Datos: verifica que los datos sen del tipo que se indica en el dataset
+Rango de variables: verifica que las variables estén dentro del rango establecido en la recoleccion de datos. En caso de encontrar variables fuera del rango preguntate: como llegaron esos datos aqui? tienen algun significado alterno? debo preservarlos o eliminarlos?
+Unicidad: verifica que tan unicos son los datos. detecta si existe duplicidad en los datos y corrige.
+Consistencia de expresiones: se refiere a como la persona que recolecta los datos define sus variables. Formato de fecha, de hora, variables escritas de la misma forma en toda la tabla. No son datos erroneos, solo es cuestion de darle el formato adecuado
+Valores nulos: pueden estar explicitos o implicitos en el dataset. Son datos faltantes. Porque esta vacio? puedo rellenarlo con otro dato? esta vacio por un proceso aleatorio o tiene un sentido?
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Clase 11
+
+Estadistica Descriptiva Aplicada: Medidas de Dispersion
+Rango: La diferencia entre el valor maximo y minimo de los datos. Da una idea de que tan dispersos estan los datos
+Rango Intercuartilico: Comprende el 25%, tanto arriba como abajo, de los datos respecto a la mediana. Divide el rango de los datos en 4 partes iguales y considera solo el 50% de los datos
+Desviacion Estandar: Ofrece la dispersion media de una variable. Si a la media de una distribucion Normal se le suma, por arriba y por debajo, la desviacion estandar se obtiene un rango que contiene el 65% de los datos. Si se suma dos desviaciones estandar se obtiene el 95% de los datos. Si se suma tres desviaciones estandar se obtiene el 99% de los datos
+https://static.platzi.com/media/user_upload/graph20-2da3c616-b5cf-4afe-b7d8-781d02f28d08.jpg
+
+Asimetría Estadística
+Esta relacionado con la simetria de la distribucion
+Si media = mediana = moda implica que la distribucion es simetrica.
+Si media > mediana > moda, entonces La distribución esta sesgada hacia la izquierda. (Sesgo positivo)
+Si media < mediana < moda, entonces la distribucion esta sesgada hacia la derecha. (Sesgo negativo)
+https://static.platzi.com/media/user_upload/graph21-d21e5c5d-7810-498e-a7d5-b763e8ebc152.jpg
+
+Cutorsis
+Es un estadístico de que tan juntos o que tan dispersos están los datos respecto a la media.
+Si Cutorsis = 0, los datos estan distribuidos homogeneamente alrededor de la media (Distribucion Mesocurtica)
+Si Cutorsis > 0, los datos estan concentrados alrededor de la media (Distribucion Leptocurtica)
+Si Cutorsis < 0, los datos estan alejados de la media (Distribucion Platicurtica)
+https://static.platzi.com/media/user_upload/graph22-c7755fff-5b0f-42cb-83f1-70ce0c869cb9.jpg
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+CLASE 13
+
+Estadistica Descriptiva Aplicada: Distribuciones
+Funcion de Probabilidad de masas (PMFs)
+Nos dice la probabilidad de que una variable aleatoria discreta tome un valor determinado. Ejemplo, la probabilidad de que en un salon hayan personas con una edad especifica
+
+Funcion de Distribucion Acumulada (CDFs)
+Devuelve la probabilidad de que una variable sea igual o menor que un valor determinado. Ejemplo, la probabilidad de que en un salon hayan personas menores o iguales a una edad especifica.
+
+Función de Probabilidad de Densidad (PDFs)
+Determine la probabilidad de que una variable continua tome un valor determinado. Ejemplo, la probabilidad de que en el salón hayan personar con una altura especifica
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Clase 21
+
+Limitacion del Analisis de Regresion Simple
+La regresion lineal simple de A - B no es lo mismo que B - A. Las regresiones pueden ser diferentes en cada caso. Debes elegir de correctamente cual sera la variable independiente y dependiente.
+Si dos variables crecen o decrecen siguiendo las mismas pautas, no implica necesariamente que una cause la otra. Correlacion no implica causalidad.
+Solo puede manejar relaciones lineales. Es importante visualizar los datos para poder determinar que tipo de regression utilizar.
+Visualizacion de la Asimetria de la Regresion Lineal
+
